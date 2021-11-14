@@ -2,12 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 0-255 shuffled in any random order. This particular instance was generated
-// using the following Python code:
-//
-//     from random import shuffle
-//     T = list(range(0, 256))
-//	   shuffle(T)
+/**
+ * 0-255 shuffled in any random order. This particular instance was generated
+ * using the following Python code:
+ *
+ *     from random import shuffle
+ *     T = list(range(0, 256))
+ *	   shuffle(T)
+ */
 static const unsigned char T[256] = {
     29,  186, 180, 162, 184, 218, 3,   141, 55,  0,   72,  98,  226, 108, 220,
     158, 231, 248, 247, 251, 130, 46,  174, 135, 170, 127, 163, 109, 229, 36,
