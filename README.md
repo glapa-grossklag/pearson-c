@@ -16,3 +16,5 @@ type used for indexing:
 ```c
 size_t Pearson(const unsigned char *key, size_t length);
 ```
+
+An example is available [here](./src/example.c).
