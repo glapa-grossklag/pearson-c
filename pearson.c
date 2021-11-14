@@ -75,14 +75,3 @@ size_t Pearson(const unsigned char *key, size_t length) {
     PearsonHash(key, length, result);
     return result;
 }
-
-int main(void) {
-    unsigned char key[] = "Hello, World!";
-    size_t length = sizeof(key) / sizeof(key[0]);
-    printf("Key: %s\n", key);
-    printf("8: %x\n", Pearson8(key, length));
-    printf("16: %x\n", Pearson16(key, length));
-    printf("32: %x\n", Pearson32(key, length));
-    printf("64: %lx\n", Pearson64(key, length));
-    printf("size_t: %zx\n", Pearson(key, length));
-}
