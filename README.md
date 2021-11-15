@@ -1,6 +1,6 @@
 # Pearson Hash
 
-A [Pearson hash function](https://en.wikipedia.org/wiki/Pearson_hashing) is a
+The [Pearson hash function](https://en.wikipedia.org/wiki/Pearson_hashing) is a
 cryptographically-weak hash function designed for quick execution. One of the
 primary benefits is that the hash function can produce a hash of arbitrary
 byte-length, as demonstrated in this library.
